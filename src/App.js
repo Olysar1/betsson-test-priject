@@ -6,6 +6,7 @@ import PlayComponent from "./components/PlayComponent";
 import TermsAndConditionsComponent from "./components/TermsAndConditionsComponent";
 import CashGamesComponent from "./components/CashGamesComponent";
 import SpringSeriesComponent from "./components/SpringSeriesComponent";
+import OtherDealsComponent from "./components/OtherDealsComponent";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           </div>
         </div>
         <TermsAndConditionsComponent />
+        <OtherDealsComponent />
       </div>
       <PlayComponent />
     </div>

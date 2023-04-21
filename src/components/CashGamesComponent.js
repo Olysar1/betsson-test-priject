@@ -1,5 +1,6 @@
 import infoIcon from "../assets/example-icon.png";
 import GiftsComponent from "./GiftsComponent";
+import SideLeaderBoardComponent from "./SideLeaderBoardComponent";
 import TopUsersComponent from "./TopUsersComponent";
 
 const CashGamesComponent = () => {
@@ -21,7 +22,11 @@ const CashGamesComponent = () => {
         </h2>
         <TopUsersComponent />
         <GiftsComponent />
+        <p style={{ paddingBottom: 15 }}>
+          *ლიდერბორდის შედეგები განახლდება <a href="/">პოკერის ლობიში</a>
+        </p>
       </div>
+      <SideLeaderBoardComponent />
     </>
   );
 };
