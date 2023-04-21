@@ -15,6 +15,12 @@ const CashGamesComponent = () => {
         </h2>
         <TopUsersComponent />
         <GiftsComponent />
+        <h2>
+          TOP20 ლიდერბორდი ჰოლდემში
+          <img src={infoIcon} alt="icon" />
+        </h2>
+        <TopUsersComponent />
+        <GiftsComponent />
       </div>
     </>
   );

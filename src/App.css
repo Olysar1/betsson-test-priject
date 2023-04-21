@@ -121,14 +121,12 @@ summary i {
 .container-header::before {
   content: "";
   width: 30%;
-  height: 5px;
+  height: 6px;
   background-color: #ef5a21;
   position: absolute;
   top: 0;
   border-radius: 0 0 5px 5px;
-  box-shadow: 0px 3px 30px 0px rgba(239, 90, 33, 0.55);
-  -webkit-box-shadow: 0px 3px 30px 0px rgba(239, 90, 33, 0.55);
-  -moz-box-shadow: 0px 3px 30px 0px rgba(239, 90, 33, 0.55);
+  box-shadow: 0px 5px 18px 2px rgba(239, 90, 33, 0.56);
 }
 
 .routed-container-body {
@@ -152,7 +150,7 @@ summary i {
 .round-edged-component-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 5px;
 
   background-color: #25292b;
   border-radius: 12pt;
@@ -238,4 +236,38 @@ summary i {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.round-edged-component-wrapper span img {
+  height: 50px;
+}
+
+.gifts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+
+  position: relative;
+  max-height: 72px;
+  padding: 26px 36px;
+  padding-right: 350px;
+  background-color: #202324;
+  border-radius: 12pt;
+}
+
+.gifts::before {
+  content: "";
+  width: 4px;
+  height: 60%;
+  background-color: #ef5a21;
+  position: absolute;
+  left: 0px;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 2px 0px 18px 2px rgba(239, 90, 33, 0.56);
+}
+
+.gifts h2 {
+  font-weight: 300;
+  text-align: left;
 }
