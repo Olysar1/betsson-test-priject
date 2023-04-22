@@ -1,3 +1,5 @@
+import PlayComponent from "./PlayComponent";
+
 const OtherDealsComponent = () => {
   return (
     <div className="other-deals-wrapper">
@@ -20,6 +22,7 @@ const OtherDealsComponent = () => {
           <p>retrieve 300% bet amount as real money only here</p>
         </div>
       </div>
+      <PlayComponent />
     </div>
   );
 };

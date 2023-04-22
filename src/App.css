@@ -42,23 +42,25 @@ a {
   height: auto;
 }
 
-.fixed {
-  position: fixed;
-  bottom: 0;
-}
-
 .sticky-play {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin-top: auto;
+  position: absolute;
+  margin-top: -89px;
   width: 100%;
   border-top-style: solid;
   border-top-color: #ef5a21;
   border-width: 2.6pt;
   background-color: #171718;
   padding: 13.5pt 0;
+  left: 0;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
 }
 
 .big-orange-button {
@@ -279,6 +281,10 @@ a {
   height: 520px;
 }
 
+.other-deals-wrapper h1 {
+  margin-bottom: -100px;
+}
+
 .other-deals {
   display: grid;
   gap: 30px;
@@ -303,8 +309,8 @@ a {
   justify-content: flex-end;
 
   padding: 25px;
-  margin: 125px 0;
-  height: 440px;
+  margin: 120px 0;
+  height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;

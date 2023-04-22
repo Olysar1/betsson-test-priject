@@ -30,7 +30,7 @@ function App() {
         <TermsAndConditionsComponent />
         <OtherDealsComponent />
       </div>
-      <PlayComponent />
+      {/* <PlayComponent /> */}
     </div>
   );
 }
