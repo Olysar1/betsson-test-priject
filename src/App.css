@@ -61,12 +61,14 @@ a {
   padding: 13.5pt 0;
 }
 
-.sticky-play-button {
+.big-orange-button {
   background-color: #ef5a21;
   border-style: none;
   border-radius: 3pt;
   font-size: 15pt;
-  padding: 8pt 40pt;
+  font-weight: 600;
+  padding: 8pt 30pt;
+  cursor: pointer;
 }
 
 .main-content-container {
@@ -119,6 +121,7 @@ a {
   height: 80px;
   border-radius: 16pt 16pt 0 0;
   background-color: #2c3234;
+  margin-top: 30px;
 }
 
 .container-header::before {
@@ -336,4 +339,38 @@ a {
   border-radius: 0 0 5px 5px;
   box-shadow: 0px 5px 18px 2px rgba(239, 90, 33, 0.56);
   transform: translateX(-50%);
+}
+
+.timing {
+  border: 2pt solid #f05a22;
+  border-radius: 10pt;
+  padding: 8px 12px 8px 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.timing::before {
+  content: url("./assets/clock.svg");
+  position: absolute;
+  background-color: #f05a22;
+  border-radius: 6pt 10pt 10pt 6pt;
+  width: 40px;
+  height: 108%;
+  left: 0;
+  top: -1px;
+}
+
+.spring-series {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 20px;
+
+  background-image: url("./assets/promo-left-img-m.png"),
+    url("./assets/promo-right-img-m.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30%, 30%;
+  background-position: -5% 100%, 105% 100%;
 }

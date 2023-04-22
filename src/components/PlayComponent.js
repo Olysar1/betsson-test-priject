@@ -20,7 +20,7 @@ const PlayComponent = () => {
   return (
     <>
       <div className={`sticky-play ${isBottom ? "fixed" : ""}`}>
-        <button className="sticky-play-button">ითამაშე</button>
+        <button className="big-orange-button">ითამაშე</button>
       </div>
     </>
   );
