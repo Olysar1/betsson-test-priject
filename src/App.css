@@ -383,9 +383,9 @@ a {
   gap: 15px;
   padding-bottom: 20px;
 
-  background-image: url("./assets/promo-left-img-m.png"),
-    url("./assets/promo-right-img-m.png");
+  background-image: url("./assets/promo-left-img.png"),
+    url("./assets/promo-right-img.png");
   background-repeat: no-repeat, no-repeat;
-  background-size: 30%, 30%;
+  background-size: 25%, 25%;
   background-position: -5% 100%, 105% 100%;
 }

@@ -5,7 +5,7 @@ const TournamentsComponent = () => {
     <div className="routed-container-body spring-series">
       <h2>სერიის ფარგლებში, ყოველდღიურად გაიმართება 3 ივენთი:</h2>
       <div className="timing-container">
-        <img src={clock} />
+        <img src={clock} alt="clock-icon" />
         <span className="timing">19:00 / 19:30 / 20:00</span>
       </div>
       <div style={{ width: 450 }}>
