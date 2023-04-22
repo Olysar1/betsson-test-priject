@@ -2,13 +2,16 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import banner from "./assets/banner.jpg";
 import NavigationBar from "./components/NavigationBar";
-import PlayComponent from "./components/PlayComponent";
 import TermsAndConditionsComponent from "./components/TermsAndConditionsComponent";
 import CashGamesComponent from "./components/CashGamesComponent";
 import SpringSeriesComponent from "./components/SpringSeriesComponent";
 import OtherDealsComponent from "./components/OtherDealsComponent";
 
 function App() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="App">
       <img className="banner" src={banner} alt="banner" />
