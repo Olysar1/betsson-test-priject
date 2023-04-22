@@ -15,7 +15,7 @@ const OtherDealsComponent = () => {
           <h2>Win a Jackpot</h2>
           <p>retrieve 300% bet amount as real money only here</p>
         </div>
-        <div className="other-deal-item" id="item-4">
+        <div className="other-deal-item" id="item-1">
           <h2>Get 300% Cashback</h2>
           <p>retrieve 300% bet amount as real money only here</p>
         </div>

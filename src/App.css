@@ -281,7 +281,7 @@ a {
 
 .other-deals {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-auto-flow: column;
   grid-auto-columns: 28%;
 
@@ -298,25 +298,57 @@ a {
 }
 
 .other-deal-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
   padding: 25px;
-  margin: 25px 0;
-  height: 500px;
+  margin: 125px 0;
+  height: 440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
+  border-radius: 5pt;
 }
 
 #item-1 {
-  background-image: url("./assets/100bonus.png");
+  /* background-image: url("./assets/100bonus.png"); */
+  background: linear-gradient(
+      2deg,
+      rgba(13, 100, 155, 1) 0%,
+      rgba(13, 100, 155, 1) 45%,
+      rgba(255, 255, 240, 0) 100%
+    ),
+    url("./assets/100bonus.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 110%;
 }
 #item-2 {
-  background-image: url("./assets/car.png");
+  /* background-image: url("./assets/car.png"); */
+  background: linear-gradient(
+      2deg,
+      rgba(239, 84, 28, 1) 0%,
+      rgba(239, 84, 28, 1) 45%,
+      rgba(255, 255, 240, 0) 100%
+    ),
+    url("./assets/car.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 110%;
 }
 #item-3 {
-  background-image: url("./assets/jackpot.png");
-}
-#item-4 {
-  background-image: url("./assets/100bonus.png");
+  /* background-image: url("./assets/jackpot.png"); */
+  background: linear-gradient(
+      2deg,
+      rgba(26, 23, 108, 1) 0%,
+      rgba(26, 23, 108, 1) 45%,
+      rgba(255, 255, 240, 0) 100%
+    ),
+    url("./assets/jackpot.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 110%;
 }
 
 .additional-info-bar {
