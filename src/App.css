@@ -488,3 +488,111 @@ h1 {
   background-color: #d7c860;
   padding: 7px 24px;
 }
+
+.final-stage-container-specific {
+  border-radius: 16pt;
+  padding: 3%;
+}
+
+.malta-pic {
+  width: 100%;
+  border-radius: 12pt;
+}
+
+.malta-info-bar {
+  justify-content: center;
+  padding: 5px 36px;
+  background-color: #2c3234;
+  margin: 0 24%;
+}
+
+.pass-categories-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.pass-categories-wrapper span {
+  font-size: 18px;
+}
+
+.pass-categories {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pass-feature-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+
+  background-color: #25292b;
+  border-style: none;
+  padding: 10px;
+}
+
+.pass-feature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+
+  border-radius: 10pt;
+  background-color: #1c1d1e;
+  padding: 20px;
+}
+
+.pass-feature span {
+  text-align: left;
+}
+
+.pass-feature img {
+  height: 40px;
+}
+
+.final-gifts-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.final-gifts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.final-gifts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  background-color: #1e2122;
+  border-radius: 12pt;
+  padding: 35px;
+}
+
+.final-gifts h2 {
+  margin: 0;
+}
+
+.final-gifts p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  margin: 0 100px 30px 100px;
+}

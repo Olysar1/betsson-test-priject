@@ -6,6 +6,7 @@ import TermsAndConditionsComponent from "./components/TermsAndConditionsComponen
 import CashGamesComponent from "./components/CashGamesComponent";
 import SpringSeriesComponent from "./components/SpringSeriesComponent";
 import OtherDealsComponent from "./components/OtherDealsComponent";
+import FinalStageComponent from "./components/FinalStageComponent";
 
 function App() {
   window.onbeforeunload = function () {
@@ -26,6 +27,7 @@ function App() {
             <Routes>
               <Route path="/CashGames" element={<CashGamesComponent />} />
               <Route path="/SpringSeries" element={<SpringSeriesComponent />} />
+              <Route path="/FinalStage" element={<FinalStageComponent />} />
               <Route path="*" element={<CashGamesComponent />} />
             </Routes>
           </div>

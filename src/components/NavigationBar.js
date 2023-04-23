@@ -27,10 +27,14 @@ const NavigationBar = () => {
         <small>13 - 29 აპრილი</small>
         <h3>Spring Series</h3>
       </Link>
-      <div className="nav-item" onClick={handleClick}>
+      <Link
+        to={"/FinalStage"}
+        className={`nav-item ${pathname === "/FinalStage" && "active"}`}
+        onClick={handleClick}
+      >
         <small>30 აპრილი</small>
         <h3>Final Stage</h3>
-      </div>
+      </Link>
     </div>
   );
 };
