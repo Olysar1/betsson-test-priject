@@ -35,7 +35,6 @@ function App() {
         <TermsAndConditionsComponent />
         <OtherDealsComponent />
       </div>
-      {/* <PlayComponent /> */}
     </div>
   );
 }

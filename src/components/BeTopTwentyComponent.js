@@ -1,9 +1,11 @@
 import GiftsComponent from "./GiftsComponent";
+import ScoreMechanicComponent from "./ScoreMechanicComponent";
 import TopUsersComponent from "./TopUsersComponent";
 
 const BeTopTwentyComponent = () => {
   return (
     <div className="routed-container-body">
+      <ScoreMechanicComponent />
       <TopUsersComponent />
       <GiftsComponent />
       <p>

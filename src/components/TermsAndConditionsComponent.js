@@ -1,7 +1,7 @@
 const TermsAndConditionsComponent = () => {
   return (
     <>
-      <h2>წესები და პირობები</h2>
+      <h2 style={{ marginTop: 70, marginLeft: 5 }}>წესები და პირობები</h2>
       <div className="terms-container">
         <details>
           <summary>

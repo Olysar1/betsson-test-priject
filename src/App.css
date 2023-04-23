@@ -164,27 +164,28 @@ a {
   border-radius: 12pt;
   height: 455px;
   margin: 24px;
-  padding: 0 32px 32px 32px;
+  padding: 0 35px 35px 35px;
 }
 
-.top-players-list {
+.scrollable-list-container {
   display: flex;
   flex-direction: column;
   gap: 4px;
 
   overflow: hidden;
   overflow-y: scroll;
+  padding-right: 25px;
 }
 
-.top-players-list::-webkit-scrollbar {
+.scrollable-list-container::-webkit-scrollbar {
   width: 7px;
 }
 
-.top-players-list::-webkit-scrollbar-track {
+.scrollable-list-container::-webkit-scrollbar-track {
   background-color: #2c3234;
 }
 
-.top-players-list::-webkit-scrollbar-thumb {
+.scrollable-list-container::-webkit-scrollbar-thumb {
   background-color: #f05a22;
   border-radius: 20px;
 }
@@ -208,7 +209,7 @@ a {
   font-size: 13pt;
 }
 
-.top-player-bar {
+.scrollable-entry {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -261,7 +262,7 @@ a {
 
 .gifts::before {
   content: "";
-  width: 4px;
+  width: 6px;
   height: 60%;
   background-color: #ef5a21;
   position: absolute;
@@ -595,4 +596,41 @@ h1 {
   gap: 12px;
 
   margin: 0 100px 30px 100px;
+}
+
+.container-header img {
+  width: 50%;
+  height: 100%;
+}
+
+.mystic-key-special {
+  padding: 35px;
+}
+
+.mystic-key-special .scrollable-list-container .scrollable-entry {
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.score-mechanic {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  position: relative;
+  margin: 20px 37%;
+  background-color: #202324;
+  border: 3px solid #2c3234;
+  border-radius: 16pt;
+  overflow: visible;
+  padding: 10px 0;
+}
+
+.score-mechanic img {
+  position: absolute;
+  width: 13%;
+}
+
+.score-mechanic span {
+  margin-right: 24%;
 }
