@@ -1,21 +1,21 @@
-// import oneTicket from "../assets/poker-item-1-ticket-icon.png";
-// import twoTickets from "../assets/poker-item-2-ticket-icon.png";
+import oneTicket from "../assets/poker-item-1-ticket-icon.png";
+import twoTickets from "../assets/poker-item-2-ticket-icon.png";
 
 export const finalGiftsLeft = [
   {
     headline: "„Cashgame Highrollers” -",
     paragraphs: ["1 საგზური"],
-    background: "../assets/poker-item-1-ticket-icon.png",
+    background: oneTicket,
   },
   {
     headline: "„Cashgame Grinders”",
     paragraphs: ["1 საგზური"],
-    background: "../assets/poker-item-1-ticket-icon.png",
+    background: oneTicket,
   },
   {
     headline: "„Tournament Sharks“ -",
     paragraphs: ["1 საგზური"],
-    background: "../assets/poker-item-1-ticket-icon.png",
+    background: oneTicket,
   },
 ];
 
@@ -27,7 +27,7 @@ export const finalGiftsRight = [
       "B კატეგორიის 1 საგზური",
       "ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾ ბაი-ინის გადახდით.",
     ],
-    background: "../assets/poker-item-2-ticket-icon.png",
+    background: twoTickets,
   },
   {
     headline: "„The Lord of the Rings“",
@@ -35,6 +35,6 @@ export const finalGiftsRight = [
       "C კატეგორიის 1 საგზური",
       "ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾ ბაი-ინის გადახდით.",
     ],
-    background: "../assets/poker-item-1-ticket-icon.png",
+    background: oneTicket,
   },
 ];

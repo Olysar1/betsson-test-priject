@@ -17,7 +17,7 @@ const TopUsersComponent = () => {
               <div className="player-number">{index + 1}</div>
               <div>{user.voucher}</div>
               <div className="prize">
-                {user.prize.icon && <img src={user.prize.icon} />}
+                {user.prize.icon && <img src={user.prize.icon} alt="icon" />}
                 <div>{user.prize.prizeText}</div>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import { StyledFinalGifts } from "./FinalGifts.style";
 import GiftParagraphGenerator from "./GiftParagraphGenerator";
 
 const FinalGiftsComponent = ({ items }) => {
@@ -5,14 +6,10 @@ const FinalGiftsComponent = ({ items }) => {
     <div className="final-gifts-container">
       {items.map((item, index) => {
         return (
-          <div
-            className="final-gifts"
-            key={index}
-            style={{ backgroundImage: `url(${item.background})` }}
-          >
+          <StyledFinalGifts background={`${item.background}`} key={index}>
             <h2>{item.headline}</h2>
             <GiftParagraphGenerator paragraphArr={item.paragraphs} />
-          </div>
+          </StyledFinalGifts>
         );
       })}
     </div>
