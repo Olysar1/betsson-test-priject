@@ -7,12 +7,14 @@ const MaltaComponent = () => {
     <div className="routed-container-body final-stage-container-specific">
       <img className="malta-pic" src={malta} alt="malta-pic" />
       <h2>ᲒᲐᲔᲛᲒᲖᲐᲕᲠᲔ THE FESTIVAL IN MALTA-ᲖᲔ!</h2>
-      <h3 style={{ padding: "0 250px" }}>
+      <h3>
         The Festival სერიების ფარგლებში, ევროპაბეთი უკვე მეორედ აძლევს პოკერის
         მოთამაშეებს დაუვიწყარი მოგზაურობის შანსს.
       </h3>
       <div className="gifts malta-info-bar">
-        <h3>15-დან 26 მაისის ჩათვლით მალტა პოკერის ფესტივალს უმასპინძლებს</h3>
+        <span>
+          15-დან 26 მაისის ჩათვლით მალტა პოკერის ფესტივალს უმასპინძლებს
+        </span>
       </div>
       <div className="pass-categories-wrapper">
         <div className="pass-categories">

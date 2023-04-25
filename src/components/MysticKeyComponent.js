@@ -9,7 +9,7 @@ const MysticKeyComponent = () => {
         <img src={mysticKey} alt="mystic-key-img" />
       </div>
       <div className="routed-container-body">
-        <h2>
+        <h2 className="visible">
           მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში მიიღებენ
           საიდუმლო გასაღებს
         </h2>

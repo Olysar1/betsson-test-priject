@@ -15,6 +15,53 @@ body {
   flex-direction: column;
 }
 
+.sign-in {
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+}
+
+.sign-in img {
+  height: 24px;
+}
+
+.header-button {
+  background: transparent;
+  border: none;
+  font-size: 14pt;
+}
+
+.sign-in-button {
+  border-radius: 5pt;
+  background-color: #ef602a;
+  padding: 6px 12px;
+}
+
+.slots {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+
+  opacity: 0.7;
+  margin: 10pt 13pt 0 10pt;
+}
+
+.slots :first-child {
+  padding: 4px 10px;
+  border-radius: 15pt;
+  background-color: #25292b;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 summary {
   display: flex;
   justify-content: space-between;
@@ -77,12 +124,18 @@ a {
   margin: 18pt 32pt 40pt 32pt;
 }
 
+.main-content-container p {
+  font-size: 20px;
+  color: rgba(213, 211, 211, 0.841);
+}
+
 .terms-container {
   display: flex;
   flex-direction: column;
 
   gap: 7.5pt;
   margin-top: 25pt;
+  opacity: 0.8;
 }
 
 .nav-container {
@@ -104,6 +157,10 @@ a {
   line-height: 4px;
   height: 60pt;
   text-decoration: none;
+}
+
+.nav-item small {
+  opacity: 0.7;
 }
 
 .active {
@@ -145,14 +202,6 @@ a {
   border-color: #25292b;
   border-top-color: #2c3234;
   border-radius: 0 0 16pt 16pt;
-}
-
-.routed-container-body h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  gap: 15px;
 }
 
 .round-edged-component-wrapper {
@@ -207,6 +256,7 @@ a {
 
   color: #7d7d7d;
   font-size: 13pt;
+  font-weight: 600;
 }
 
 .scrollable-entry {
@@ -263,7 +313,7 @@ a {
 .gifts::before {
   content: "";
   width: 6px;
-  height: 60%;
+  height: 40px;
   background-color: #ef5a21;
   position: absolute;
   left: 0px;
@@ -371,13 +421,17 @@ a {
 .additional-info-bar::before {
   content: "";
   width: 30%;
-  height: 6px;
+  height: 4px;
   background-color: #ef5a21;
   position: absolute;
   top: 0;
   border-radius: 0 0 5px 5px;
   box-shadow: 0px 5px 18px 2px rgba(239, 90, 33, 0.56);
   transform: translateX(-50%);
+}
+
+.additional-info-bar h3 {
+  opacity: 0.8;
 }
 
 .timing-container {
@@ -427,6 +481,10 @@ a {
   background-repeat: no-repeat, no-repeat;
   background-size: 25%, 25%;
   background-position: -5% 100%, 105% 100%;
+}
+
+.spring-series:nth-child(3) {
+  width: 50px;
 }
 
 .poker-ad-container {
@@ -633,4 +691,318 @@ h1 {
 
 .score-mechanic span {
   margin-right: 24%;
+}
+
+.ad-scaled-down :nth-child(4) {
+  padding: "0 300px";
+}
+
+@media screen and (max-width: 768px) {
+  .invisible {
+    display: flex;
+  }
+
+  .visible {
+    display: none;
+  }
+
+  .main-content-container {
+    margin: 10pt 13pt 40pt 13pt;
+  }
+
+  .main-content-container h2 {
+    font-size: 15pt;
+  }
+
+  .main-content-container p {
+    font-size: 12pt;
+  }
+
+  .nav-container {
+    margin-bottom: 0;
+  }
+
+  .routed-container-body {
+    background-color: #25292b;
+  }
+
+  .main-content-container h2 {
+    font-size: 12pt;
+  }
+
+  .main-content-container p {
+    font-size: 11pt;
+  }
+
+  .nav-item {
+    gap: 5px;
+  }
+
+  .nav-item h3 {
+    font-size: 10pt;
+    padding: 0 5px;
+  }
+
+  .nav-item small {
+    font-size: 9pt;
+  }
+
+  .active {
+    border-radius: 8pt;
+    padding: 5px 10px;
+  }
+
+  .active h3 {
+    margin-bottom: 0;
+  }
+
+  .container-header {
+    font-size: 12pt;
+  }
+
+  .header-span-container {
+    padding: 0 60px 0 12px;
+  }
+
+  .header-span-container span {
+    gap: 3px;
+    font-size: 11pt;
+  }
+
+  .round-edged-component-wrapper span img {
+    height: 25px;
+  }
+
+  .round-edged-component-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  .scrollable-list-container {
+    padding-top: 15px;
+    padding-right: 5px;
+  }
+
+  .scrollable-entry {
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    min-height: 50px;
+    font-size: 10pt;
+  }
+
+  .prize {
+    width: 110px;
+  }
+
+  .prize img {
+    display: none;
+  }
+
+  .gifts h2 {
+    font-size: 11pt;
+  }
+
+  .gifts :first-child {
+    height: 40px;
+  }
+
+  .gifts {
+    gap: 10px;
+    padding: 15px;
+    margin: 0 13px;
+  }
+
+  .routed-container-body p {
+    padding: 0 20px;
+  }
+
+  .additional-info-bar {
+    padding: 18px 30px;
+  }
+
+  .additional-info-bar h2 {
+    font-size: 11pt;
+  }
+
+  .additional-info-bar h3 {
+    font-size: 9pt;
+  }
+
+  .terms-container summary {
+    gap: 50px;
+    font-size: 11pt;
+    padding: 0 15px;
+  }
+
+  .other-deals-wrapper {
+    height: 275px;
+  }
+
+  .other-deals-wrapper h1 {
+    font-size: 12pt;
+  }
+
+  .sticky-play {
+    margin-top: 0;
+  }
+
+  .other-deals {
+    grid-auto-columns: 43%;
+    gap: 15px;
+  }
+
+  .other-deal-item {
+    height: 120px;
+    margin-bottom: 0;
+    padding: 50px 8px 3px 8px;
+  }
+
+  .other-deal-item h2 {
+    font-size: 9pt;
+    margin: 0;
+  }
+
+  .other-deal-item p {
+    font-size: 8pt;
+  }
+
+  .spring-series {
+    background-color: #171718;
+  }
+
+  .spring-series .big-orange-button {
+    font-size: 10pt;
+    padding: 5pt 15pt;
+  }
+
+  .container-header span {
+    text-align: center;
+  }
+
+  .score-mechanic {
+    margin: 20px 10%;
+  }
+
+  .score-mechanic span {
+    font-size: 9pt;
+  }
+
+  .poker-ad-container {
+    flex-direction: column;
+    margin: 25px 0 0 0;
+  }
+
+  .poker-ad {
+    gap: 0;
+    padding-top: 5px;
+  }
+
+  .poker-ad span h4 {
+    font-size: 11pt;
+    font-weight: 550;
+    margin-bottom: 0;
+  }
+
+  .poker-ad span {
+    justify-content: initial;
+  }
+
+  .ad-scaled-down {
+    border: none;
+    background-color: #1c1d1e;
+  }
+
+  .ad-scaled-down h2 {
+    font-size: 11pt;
+  }
+
+  .main-event-ad {
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+    background-image: url("../src/assets/main-bg-sm.png");
+  }
+
+  .main-event-date {
+    padding: 4px 20px;
+  }
+
+  .main-event-ad :first-child h4 {
+    font-size: 10pt;
+  }
+
+  .ad-scaled-down :nth-child(4) {
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  .final-stage-container-specific {
+    margin-top: 32px;
+    background-color: #171718;
+  }
+
+  .final-stage-container-specific h2:first-of-type {
+    font-size: 10pt;
+    font-weight: 500;
+  }
+
+  .final-stage-container-specific h3:first-of-type {
+    font-size: 10pt;
+    font-weight: 500;
+    padding: 0 20px;
+  }
+
+  .malta-info-bar span {
+    font-size: 11pt;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .pass-categories-wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pass-categories {
+    padding: 0;
+  }
+
+  .pass-feature span {
+    font-size: 11pt;
+  }
+
+  .final-gifts-container-wrapper {
+    flex-direction: column;
+
+    padding: 20px 0;
+  }
+
+  .container-header {
+    padding: 0 20px;
+  }
+
+  .final-gifts-container {
+    width: 95%;
+  }
+
+  .tips {
+    margin: 0 15px 15px 15px;
+  }
+
+  .container-header img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .tips span {
+    font-size: 10pt;
+  }
+
+  .scrollable-entry h3 {
+    font-size: 10pt;
+    font-weight: 500;
+    text-align: left;
+  }
 }

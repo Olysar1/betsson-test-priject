@@ -7,6 +7,8 @@ import CashGamesComponent from "./components/CashGamesComponent";
 import SpringSeriesComponent from "./components/SpringSeriesComponent";
 import OtherDealsComponent from "./components/OtherDealsComponent";
 import FinalStageComponent from "./components/FinalStageComponent";
+import SignInComponent from "./components/SignInComponent";
+import SlotsComponent from "./components/SlotsComponent";
 
 function App() {
   window.onbeforeunload = function () {
@@ -15,11 +17,13 @@ function App() {
 
   return (
     <div className="App">
+      <SignInComponent />
       <img className="banner" src={banner} alt="banner" />
+      <SlotsComponent />
       <div className="main-content-container">
         <div>
           <h2>მოიპოვე მრავალფეროვანი პრიზები და 10 საგზურიდან ერთ-ერთი</h2>
-          <p style={{ fontSize: 20 }}>მოხვდი პოკერის ფესტივალზე მალტაში</p>
+          <p>მოხვდი პოკერის ფესტივალზე მალტაში</p>
         </div>
         <div>
           <NavigationBar />

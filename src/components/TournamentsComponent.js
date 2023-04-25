@@ -8,7 +8,7 @@ const TournamentsComponent = () => {
         <img src={clock} alt="clock-icon" />
         <span className="timing">19:00 / 19:30 / 20:00</span>
       </div>
-      <div style={{ width: 450 }}>
+      <div>
         <p>* ყველა ტურნირზე მოხვედრა შესაძლებელია 0 ლარიდან.</p>
         <p>ტურნირების სრული განრიგის სანახავად გადადი პოკერის ლობიში</p>
       </div>

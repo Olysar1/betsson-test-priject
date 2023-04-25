@@ -22,4 +22,12 @@ export const StyledFinalGifts = styled.div`
     margin-bottom: 0px;
     text-align: left;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+    background-size: initial;
+    p {
+      padding-left: 0;
+    }
+  }
 `;
